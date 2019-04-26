@@ -1,0 +1,50 @@
+.login-header
+{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.login-header *
+{
+    display: inline-block;
+}
+
+.inline
+{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.input-center
+{
+    text-align: -webkit-center;
+	text-align: -moz-center;
+}
+
+.login-button
+{
+    margin-bottom: 0.3rem;
+    background: #344399;
+    color: white;
+}
+
+.radio-button
+{
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
+
+.create-account-button
+{
+    margin-top: 1.5rem;
+    background: #15882f;
+    color: white;
+}
+
+.body
+{
+    width: 75%;
+}

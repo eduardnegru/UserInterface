@@ -1,0 +1,229 @@
+.top-bar
+{
+    background-color: #344399;
+    height: 4rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.side-bar
+{
+    background-color: #f9f9f9;
+    width: 13rem;
+    min-height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    min-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    min-height: fill-available;
+}
+
+.main-content
+{
+    background-color: white;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body
+{
+    display: flex;
+}
+
+.company-name
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    color: white;
+}
+
+.logged-in-user
+{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: white;
+    justify-content: right;
+}
+
+.side-bar-option
+{
+    height: 5rem;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.side-bar-option:hover
+{
+    background-color: #dee2e6;
+}
+
+
+.side-bar-option-image
+{
+    flex: 1;
+    font-size: 1rem;
+}
+
+.side-bar-option-text
+{
+    white-space: nowrap;
+    margin-left: 5px;
+    float: left;
+    font-size: smaller;
+}
+
+.side-bar-option-expand
+{
+    flex: 1;
+}
+
+.side-bar-option-expand-image
+{
+    padding-top: 1rem;   
+}
+
+.side-bar-cards
+{
+    text-align: center;
+}
+
+.side-bar-option-text-wrapper
+{
+    flex: 2;
+}
+
+.side-bar-shadow
+{
+    pointer-events: none;    
+    width: 8px;
+    background: linear-gradient(90deg,#dee2e6,#fff);
+}
+
+.training-dataset-image
+{
+    color: black;
+}
+
+.pie-chart
+{
+    margin-top: 2rem;
+}
+
+.chart-wrapper
+{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2rem;
+}
+
+.pie-chart-wrapper
+{
+    width: 100%;
+    height: 70%;
+}
+
+.word-cloud-image
+{
+    color: black;
+}
+
+.classification-image
+{
+    color: black;
+
+}
+
+.ngram-image
+{
+    color: black;
+}
+
+.messages-not-toxic
+{
+    color: black;
+    font-size: 1rem;
+    /* padding-right: 1.2rem; */
+}
+
+.messages-classification
+{
+    color: black;
+    font-size: 1rem;
+}
+
+.messages-toxic
+{
+    color: black;
+    font-size: 1rem;
+    /* padding-right: 1.2rem; */
+}
+
+.word-cloud-title
+{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}   
+
+.main-content-word-cloud
+{
+    width: 100%;
+}
+
+.word-cloud-row-wrapper
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.word-cloud-wrapper
+{
+    flex: 1;
+}
+
+.logo-quora
+{
+    color: #b92a26;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.message-wrapper
+{
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.message-holder
+{
+    display: inline-flex;
+    border-radius: 25px;
+    background: #dee2e6;
+    padding: 20px;
+}
+
+.message-box
+{
+    margin-top: 2rem;
+    background-color: white;
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+}
+
+.message-text
+{
+    width: 32rem;
+}
+
+.logo-twitter
+{
+    color: #1da1f2;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
