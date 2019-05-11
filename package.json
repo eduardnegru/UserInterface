@@ -7,9 +7,11 @@
     "chart.js": "^2.7.3",
     "d3": "^5.7.0",
     "react": "^16.6.3",
+    "react-bootstrap-button-loader": "^1.0.12",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-spinners": "^0.5.4"
   },
   "scripts": {
     "start": "react-scripts start",

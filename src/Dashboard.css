@@ -25,10 +25,25 @@
     flex-direction: column;
 }
 
+.data-main-content
+{
+    background-color: white;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-body
 {
     display: flex;
 }
+
+.settings-inline
+{
+    display: inline-flex
+}
+
 
 .company-name
 {
@@ -43,6 +58,18 @@
     margin-right: 2rem;
     color: white;
     justify-content: right;
+}
+
+.left-margin
+{
+    margin-left: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.settings-top-margin
+{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .side-bar-option
@@ -67,6 +94,17 @@
     font-size: 1rem;
 }
 
+.spinner-config
+{
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+}
+
+.settings-label
+{
+    margin-left: 1.5rem;
+}
+
 .side-bar-option-text
 {
     white-space: nowrap;
@@ -82,7 +120,7 @@
 
 .side-bar-option-expand-image
 {
-    padding-top: 1rem;   
+    padding-top: 1rem;
 }
 
 .side-bar-cards
@@ -97,7 +135,7 @@
 
 .side-bar-shadow
 {
-    pointer-events: none;    
+    pointer-events: none;
     width: 8px;
     background: linear-gradient(90deg,#dee2e6,#fff);
 }
@@ -167,7 +205,7 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
     font-weight: bold;
-}   
+}
 
 .main-content-word-cloud
 {
@@ -211,7 +249,7 @@
 {
     margin-top: 2rem;
     background-color: white;
-    flex: 1;    
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -226,4 +264,85 @@
     color: #1da1f2;
     font-size: 2rem;
     margin-right: 2rem;
+}
+
+.form-wrapper-text
+{
+    width: 40%;
+    height: 50%;
+}
+
+.input-text
+{
+    height: 70%;
+    border: none;
+    overflow: hidden;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.playground-status
+{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.playground-status-circle-loading
+{
+    padding-left: 0.5rem;
+}
+
+.playground-status-circle-stall
+{
+    color: gray;
+    padding-left: 0.5rem;
+}
+
+.playground-status-circle-toxic
+{
+    color: red;
+    padding-left: 0.5rem;
+}
+
+.playground-status-circle-non-toxic
+{
+    color: green;
+    padding-left: 0.5rem;
+}
+
+.playground-content
+{
+    height: 80%;
+    border: 1px solid #ced4da;
+    border-spacing: 1rem;
+    border-radius: 0.55rem;
+}
+
+.playground-count-label
+{
+    width: 100%;
+    text-align: right;
+    color: rgb(169, 169, 169);
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.playground-label
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
 }
