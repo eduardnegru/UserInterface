@@ -568,12 +568,11 @@ class Checkbox extends Component {
 
 class Playground extends Component {
 
-
 	constructor()
 	{
 		super();
 		this.timer = null;
-		this.state = {"count": 0, "status": "stall"};
+		this.state = {"count": 0, "status": "stall", "message": "", "inputMessage":""};
 	}
 
 	async onKeyUp(event)
@@ -587,7 +586,7 @@ class Playground extends Component {
 
 			let letterCount = event.target.value === "" ? 0 : event.target.value.length;
 			this.timer = setInterval(this.doneTyping.bind(this), 800);
-			await this.setState({"count" : letterCount, "status":"loading"});
+			await this.setState({"count" : letterCount, "status":"loading", "message": "", "inputMessage":event.target.value.trim()});
 		}
 	}
 
@@ -598,7 +597,63 @@ class Playground extends Component {
 			clearInterval(this.timer);
 		}
 
-		await this.setState({"status":"stall"});
+		const config = {
+			headers: {
+				'Access-Control-Allow-Origin': '*',
+				'Content-Type': 'application/x-www-form-urlencoded'
+			}
+		};
+
+		// const requestBody = {"text": "the"};
+
+		if(this.state.inputMessage.length === 0)
+		{
+			await this.setState({"status": "stall", "message": ""});
+			return;
+		}
+
+		const response = await axios({
+			method: "POST",
+			url: "http://34.73.198.92:8000/predict",
+			headers: {
+			  	"Content-Type": "application/x-www-form-urlencoded"
+			},
+			data: {
+			   text: this.state.inputMessage
+			}
+		});
+
+		let prediction = response.data.prediction;
+		let status;
+		let message;
+
+		if(prediction < 0.4)
+		{
+			status = "non-toxic";
+			message = "Unlikely to be perceived as toxic (" + prediction + ")";
+		}
+		else if(prediction < 0.5)
+		{
+			status = "non-toxic";
+			message = "Unsure if this will be perceived as toxic (" + prediction + ")";
+		}
+		else if(prediction < 0.6)
+		{
+			status = "toxic";
+			message = "Unsure if this will be perceived as toxic (" + prediction + ")";
+		}
+		else if(prediction < 0.8)
+		{
+			status = "toxic";
+			message = "Likely to be perceived as toxic (" + prediction + ")";
+		}
+		else
+		{
+			status = "toxic";
+			message = "Very likely to be perceived as toxic (" + prediction + ")";
+		}
+
+		await this.setState({"status": status, "message": message});
  	}
 
 	render() {
@@ -609,8 +664,9 @@ class Playground extends Component {
 				<div class="playground-content">
 					<div class="playground-status">
 						<StatusCircle status={this.state.status}/>
+						<Label className="playground-status-message" text={this.state.message}/>
 					</div>
-					<textarea class="z-depth-1 input-text" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..." onKeyUp={e => this.onKeyUp(e)}></textarea>
+					<textarea maxLength={500} class="z-depth-1 input-text" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..." onKeyUp={e => this.onKeyUp(e)}></textarea>
 					<Label className="playground-count-label" text={"Characters " + this.state.count + "/500"}/>
 				</div>
 			</div>
@@ -628,19 +684,27 @@ class StatusCircle extends React.Component
 		if(this.props.status === "stall")
 		{
 			return (
-				<i class="fas fa-circle playground-status-circle-stall"></i>
+				<div class="playground-status-circle-stall">
+					<i class="fas fa-circle"></i>
+				</div>
+
 			)
 		}
 		else if(this.props.status === "toxic")
 		{
 			return (
-				<i class="fas fa-circle playground-status-circle-toxic"></i>
+				<div class="playground-status-circle-toxic">
+					<i class="fas fa-circle playground-status-circle-toxic"></i>
+				</div>
 			)
 		}
 		else if(this.props.status === "non-toxic")
 		{
 			return (
-				<i class="fas fa-circle playground-status-circle-non-toxic"></i>
+				<div class="playground-status-circle-non-toxic">
+					<i class="fas fa-circle"></i>
+				</div>
+
 			)
 		}
 		else if(this.props.status === "loading")
@@ -660,7 +724,7 @@ class Label extends React.Component
 
 	render() {
 		return (
-			<label class={this.props.className}> {this.props.text}</label>
+			<span class={this.props.className}> {this.props.text}</span>
 		)
 	}
 }
