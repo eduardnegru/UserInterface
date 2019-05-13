@@ -597,13 +597,6 @@ class Playground extends Component {
 			clearInterval(this.timer);
 		}
 
-		const config = {
-			headers: {
-				'Access-Control-Allow-Origin': '*',
-				'Content-Type': 'application/x-www-form-urlencoded'
-			}
-		};
-
 		// const requestBody = {"text": "the"};
 
 		if(this.state.inputMessage.length === 0)
@@ -612,16 +605,25 @@ class Playground extends Component {
 			return;
 		}
 
+		console.log("sending", this.state.inputMessage.replace(/[^0-9a-zA-Z ]/g, "").replace(/\s\s+/g, ' ').trim());
+
+		let bodyFormData = new FormData();
+		bodyFormData.append("text", "the");
+
 		const response = await axios({
 			method: "POST",
-			url: "http://34.73.198.92:8000/predict",
+			url: "http://35.231.178.30:8000/predict",
+			// data: bodyFormData,
 			headers: {
 			  	"Content-Type": "application/x-www-form-urlencoded"
 			},
 			data: {
-			   text: this.state.inputMessage
+			   text: this.state.inputMessage.replace(/[^0-9a-zA-Z ]/g, "").replace(/\s\s+/g, ' ').trim()
 			}
 		});
+
+		// let response = await axios.post("http://34.73.198.92:8000/predict", {"text":"the"}, config);
+
 
 		let prediction = response.data.prediction;
 		let status;
