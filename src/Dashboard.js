@@ -613,7 +613,6 @@ class Playground extends Component {
 		const response = await axios({
 			method: "POST",
 			url: "http://35.231.178.30:8000/predict",
-			// data: bodyFormData,
 			headers: {
 			  	"Content-Type": "application/x-www-form-urlencoded"
 			},
@@ -621,8 +620,6 @@ class Playground extends Component {
 			   text: this.state.inputMessage.replace(/[^0-9a-zA-Z ]/g, "").replace(/\s\s+/g, ' ').trim()
 			}
 		});
-
-		// let response = await axios.post("http://34.73.198.92:8000/predict", {"text":"the"}, config);
 
 
 		let prediction = response.data.prediction;
