@@ -7,6 +7,7 @@ import WordCloud from 'react-d3-cloud';
 import io from 'socket.io-client';
 import ClipLoader from 'react-spinners/ClipLoader';
 import sleep from "sleep-promise";
+import Cookies from 'js-cookie';
 
 const ignoredKeys = ["Tab", "CapsLock", "Shift", "Control", "Alt", "AltGraph", "Escape", "F1"];
 
@@ -256,10 +257,12 @@ class MainContent extends Component
 
 	async componentDidMount()
 	{
+		const jwtToken = Cookies.get('jwt');
 
 		const config = {
 			headers: {
-				'Access-Control-Allow-Origin': '*'
+				'Access-Control-Allow-Origin': '*',
+				'Authorization': 'Bearer '+ jwtToken,
 			}
 		}
 
@@ -849,7 +852,7 @@ class PieChart extends React.Component {
 		  datasets: [
 			{
 			  data: Object.values(objData),
-			  backgroundColor: randomColor({count: 2})
+			  backgroundColor: [randomColor({luminosity: 'dark'}), randomColor({luminosity: 'light'})]
 			}
 		  ]
 		},
