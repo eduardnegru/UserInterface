@@ -87,7 +87,7 @@ class SideBarOption extends Component
 			{
 				arrOptions = [
 					{
-						image: "fas fa-cog",
+						image: "fas fa-cog data-sources",
 						text: "Data sources",
 						id: "data-sources"
 					},
@@ -146,10 +146,11 @@ class SideBarOption extends Component
 
 class TopBar extends Component {
 	render() {
+		let email = sessionStorage.getItem("email");
 		return(
 			<div className="top-bar">
-				<h1 className="company-name">{"Classify toxic messages in real time"}</h1>
-				<span className="logged-in-user">{"adrianeduardnegru@gmail.com"}</span>
+				<h1 className="company-name">{"Dashboard"}</h1>
+				<span className="logged-in-user">{"Welcome, " + email + "."}</span>
 			</div>
 		);
 	}
@@ -450,7 +451,9 @@ class MainContent extends Component
 					this.incomingNotToxicMessages = false;
 				}
 
-				elNode = <div className="main-content"></div>
+				elNode = <div className="data-main-content">
+							<Playground/>
+						</div>
 			}
 
 			return (elNode)
