@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.png';
 import './Login.css';
 import axios from 'axios';
+const qs = require('qs');
 
 class Button extends React.Component {
 
@@ -16,19 +17,20 @@ class Button extends React.Component {
 			firstname: this.props.parentState["login-body-firstname"],
 			lastname: this.props.parentState["login-body-lastname"]
 		}
-		
+
 		const config = {
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded',
-				'Access-Control-Allow-Origin': '*'				
+				'Access-Control-Allow-Origin': '*'
 			}
 		}
 
 
 		try {
-			let result = await axios.post("http://localhost:3001/signup", requestBody, config);
-			console.log(result);	
-			window.location="/dashboard";			
+			let result = await axios.post("http://localhost:3001/signup", qs.stringify(requestBody), config);
+			console.log(requestBody);
+			console.log(result);
+			window.location="/dashboard";
 		} catch (error) {
 			console.log(error);
 		}
@@ -36,12 +38,12 @@ class Button extends React.Component {
 
 	async handleLogin() {
 		let requestBody;
-			
+
 		requestBody = {
 			email: this.props.parentState["login-header-email"],
 			password: this.props.parentState["login-header-password"]
 		}
-	
+
 		const config = {
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded',
@@ -50,33 +52,33 @@ class Button extends React.Component {
 		}
 
 		console.log(requestBody);
-		
+
 		try
 		{
-			let result = await axios.post("http://localhost:3001/login", requestBody, config);
+			let result = await axios.post("http://localhost:3001/login", qs.stringify(requestBody), config);
 			let jwt = result.data.token;
 			window.location="/dashboard";
 		}
 		catch(error)
 		{
 			console.log(error.message);
-		}		
- 		
+		}
+
 	}
 
 	async handleLoginClick(event){
-		
-		
-		
+
+
+
 		if(this.props.type === "signup") {
-		
+
 			this.handleSignup();
 
-		} 
+		}
 		else if(this.props.type === "login"){
 
 			this.handleLogin();
-			
+
 		}
 
 	}
@@ -101,7 +103,7 @@ class TextInput extends React.Component {
 	render() {
 
 		let strInputSizeClass = "form-group col-lg-";
-		
+
 		if(this.props.size)
 		{
 			strInputSizeClass += this.props.size;
@@ -124,12 +126,12 @@ class Logo extends React.Component {
 	render() {
 		return (
 			<div>
-				<img src={logo} alt={this.props.alt} width="150px" height="100px"/>          
+				<img src={logo} alt={this.props.alt} width="150px" height="100px"/>
 			</div>
 		);
 	}
   }
-  
+
 
 class LoginHeader extends Component{
 
@@ -141,7 +143,7 @@ class LoginHeader extends Component{
 			console.log(error);
 		}
 	}
-	 
+
 	render() {
 		return (
 			<div className="login-header">
@@ -205,7 +207,7 @@ class LoginBody extends Component{
 						<TextInput type="text" placeholder="Email" size={4} handleInputEvent={this.handleInputEvent.bind(this)} refs="login-body-email"/>
 						<TextInput type="password" placeholder="Password" size={4} handleInputEvent={this.handleInputEvent.bind(this)} refs="login-body-password"/>
 						<Button className="btn create-account-button" name="Create Account" parentState={this.state} type="signup"/>
-					</div>					 
+					</div>
 				</div>
 			</div>
 		);
@@ -217,7 +219,7 @@ class Login extends Component {
 	return (
 		<div className="LoginPage">
 			<LoginHeader/>
-			<LoginBody/>		 
+			<LoginBody/>
 		</div>
 	);
   }
