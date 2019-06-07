@@ -13,8 +13,6 @@ const ignoredKeys = ["Tab", "CapsLock", "Shift", "Control", "Alt", "AltGraph", "
 class CustomWordCloud extends Component
 {
 	render() {
-
-
 		const data = this.props.data.map(function(x){
 			return {
 				value: x["count"],

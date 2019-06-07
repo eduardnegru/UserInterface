@@ -48,3 +48,10 @@
 {
     width: 75%;
 }
+
+.error-span
+{
+    font-size: 12px;
+    color: red;
+    margin-top: 1rem;
+}

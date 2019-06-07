@@ -6,10 +6,10 @@ const qs = require('qs');
 
 class Button extends React.Component {
 
-
 	async handleSignup() {
 
 		let requestBody;
+		let bError = false;
 
 		requestBody = {
 			email: this.props.parentState["login-body-email"],
@@ -28,16 +28,20 @@ class Button extends React.Component {
 
 		try {
 			let result = await axios.post("http://localhost:3001/signup", qs.stringify(requestBody), config);
-			console.log(requestBody);
 			console.log(result);
 			window.location="/dashboard";
 		} catch (error) {
 			console.log(error);
+			bError = true;
 		}
+
+		this.props.handleError("signup_error", bError);
+
 	}
 
 	async handleLogin() {
 		let requestBody;
+		let bError = false;
 
 		requestBody = {
 			email: this.props.parentState["login-header-email"],
@@ -47,14 +51,11 @@ class Button extends React.Component {
 		const config = {
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded',
-				'Access-Control-Allow-Origin': '*'
-			}
+			},
+			withCredentials: true
 		}
 
-		console.log(requestBody);
-
-		try
-		{
+		try{
 			let result = await axios.post("http://localhost:3001/login", qs.stringify(requestBody), config);
 			let jwt = result.data.token;
 			window.location="/dashboard";
@@ -62,36 +63,39 @@ class Button extends React.Component {
 		catch(error)
 		{
 			console.log(error.message);
+			bError = true;
 		}
 
+		this.props.handleError("login_error", bError);
 	}
 
 	async handleLoginClick(event){
-
-
-
 		if(this.props.type === "signup") {
-
 			this.handleSignup();
-
 		}
 		else if(this.props.type === "login"){
-
 			this.handleLogin();
-
 		}
-
 	}
 
-    render() {
-		return (
-			<div>
-				<button type="button" onClick={(e) => {this.handleLoginClick(e)}} className={this.props.className}> {this.props.name} </button>
-			</div>
-		);
-  	}
+		render() {
+			return (
+				<div>
+					<button type="button" onClick={(e) => {this.handleLoginClick(e)}} className={this.props.className}> {this.props.name} </button>
+				</div>
+			);
+		}
 }
 
+class ErrorSpan extends React.Component {
+
+	render() {
+		return (
+			<span style={{display: this.props.isActive ? 'block' : 'none' }} className="error-span">{this.props.errorMessage}</span>
+		);
+	}
+
+}
 
 class TextInput extends React.Component {
 
@@ -103,6 +107,7 @@ class TextInput extends React.Component {
 	render() {
 
 		let strInputSizeClass = "form-group col-lg-";
+		let strErrorMessage = this.props.type === "email "? "Email is incorrect" : "Password is incorrect"
 
 		if(this.props.size)
 		{
@@ -130,7 +135,7 @@ class Logo extends React.Component {
 			</div>
 		);
 	}
-  }
+	}
 
 
 class LoginHeader extends Component{
@@ -144,16 +149,30 @@ class LoginHeader extends Component{
 		}
 	}
 
+	async handleError(type, isError) {
+		try {
+			await this.setState({[type]: isError});
+			console.log(this.state);
+		}
+		catch(error) {
+			console.log(error);
+		}
+	}
+
 	render() {
+
+		let bErrorActive = this.state && this.state["login_error"];
+
 		return (
 			<div className="login-header">
 				<Logo alt="Company Logo"/>
 				<TextInput type="text" placeholder="Email" handleInputEvent={this.handleInputEvent.bind(this)} refs="login-header-email"/>
 				<TextInput type="password" placeholder="Password" handleInputEvent={this.handleInputEvent.bind(this)} refs="login-header-password"/>
-				<Button className="btn login-button" name="Login" parentState={this.state} type="login"/>
+				<Button className="btn login-button" name="Login" handleError={this.handleError.bind(this)} parentState={this.state} type="login"/>
+				<ErrorSpan isActive={bErrorActive} errorMessage="Authentication failed. Wrong e-mail or password"/>
 			</div>
 		);
-	  }
+		}
 }
 
 class Text extends Component{
@@ -171,7 +190,7 @@ class Text extends Component{
 				<h2>{this.props.innerText}</h2>
 			);
 		}
-	  }
+		}
 }
 
 class LoginBody extends Component{
@@ -193,7 +212,19 @@ class LoginBody extends Component{
 		}
  	}
 
+	async handleError(type, isError) {
+		try {
+			await this.setState({[type]: isError});
+			console.log(this.state);
+		}
+		catch(error) {
+			console.log(error);
+		}
+	}
+
 	render() {
+		let bErrorActive = this.state && this.state["signup_error"];
+
 		return (
 			<div className = "input-center">
 				<div className="body">
@@ -206,23 +237,24 @@ class LoginBody extends Component{
 					<div className="input-center">
 						<TextInput type="text" placeholder="Email" size={4} handleInputEvent={this.handleInputEvent.bind(this)} refs="login-body-email"/>
 						<TextInput type="password" placeholder="Password" size={4} handleInputEvent={this.handleInputEvent.bind(this)} refs="login-body-password"/>
-						<Button className="btn create-account-button" name="Create Account" parentState={this.state} type="signup"/>
+						<Button className="btn create-account-button" name="Create Account" handleError={this.handleError.bind(this)} parentState={this.state} type="signup"/>
+						<ErrorSpan isActive={bErrorActive} errorMessage="Cannot create account. Please check the console for more details."/>
 					</div>
 				</div>
 			</div>
 		);
-	  }
+		}
 }
 
 class Login extends Component {
-  render() {
+	render() {
 	return (
 		<div className="LoginPage">
 			<LoginHeader/>
 			<LoginBody/>
 		</div>
 	);
-  }
+	}
 }
 
 export default Login;
