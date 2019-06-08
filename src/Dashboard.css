@@ -143,7 +143,7 @@
 
 .training-dataset-image
 {
-    color: black;
+    color: #b11221;
 }
 
 .pie-chart
@@ -166,22 +166,39 @@
 
 .word-cloud-image
 {
-    color: black;
+    color:#b68d00;
+}
+
+*:focus {
+    outline: none;
+}
+.rc-pagination-item:hover a
+{
+    color: black !important;
+}
+.rc-pagination-item:hover
+{
+    border-color: #d9d9d9 !important;
+}
+.rc-pagination-item-active {
+    background-color: #dee2e6 !important;
+    border-color: #d9d9d9 !important;
+    pointer-events: none !important;
 }
 
 .classification-image
 {
-    color: black;
+    color: #5e1163cf;
 
 }
 
 .ngram-image
 {
-    color: black;
+    color: #0b798a;
 }
 .data-sources
 {
-    color: rgba(0, 0, 0, 0.76);;
+    color: #000000;
     /* padding-right: 1.2rem; */
 }
 .messages-not-toxic
@@ -191,9 +208,13 @@
     /* padding-right: 1.2rem; */
 }
 
+.logo-microphone
+{
+
+}
 .messages-classification
 {
-    color: #036372;
+    color: #0062cc;
     font-size: 1rem;
 }
 
@@ -261,9 +282,14 @@
 
 .message-text
 {
-    width: 32rem;
+    width: 30rem;
 }
-
+.pagination
+{
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 .logo-twitter
 {
     color: #1da1f2;
@@ -362,4 +388,9 @@
     text-align: center;
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
+}
+
+.playground-icon
+{
+    color: #1e7e34;
 }

@@ -8,6 +8,10 @@ import io from 'socket.io-client';
 import ClipLoader from 'react-spinners/ClipLoader';
 import sleep from "sleep-promise";
 import Cookies from 'js-cookie';
+import ReactDOM from 'react-dom';
+import Pagination from 'rc-pagination';
+import 'rc-pagination/assets/index.css';
+const qs = require('qs');
 
 const ignoredKeys = ["Tab", "CapsLock", "Shift", "Control", "Alt", "AltGraph", "Escape", "F1"];
 
@@ -53,7 +57,6 @@ class SideBarOption extends Component
 		{
 			await this.setState({isExpanded: !this.state.isExpanded});
 		}
-
 		await this.props.handleOptionClicked(this.props.id);
 	}
 
@@ -167,7 +170,36 @@ class SideBar extends Component {
 	}
 
 	async handleOptionClicked(strOptionClikced) {
-		await this.props.handleOptionClicked(strOptionClikced);
+		let data = null;
+
+		if(
+			strOptionClikced === "messages-toxic"
+			|| strOptionClikced === "messages-not-toxic"
+		)
+		{
+			const jwtToken = Cookies.get('jwt');
+
+			const config = {
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded',
+					'Access-Control-Allow-Origin': '*',
+					'Authorization': 'Bearer '+ jwtToken
+				}
+			}
+
+			let isToxic = strOptionClikced.split("-")[1] === "toxic" ? 1 : 0;
+
+			try
+			{
+				data = await axios.get("http://localhost:3001/messages_get?isToxic="+isToxic, {}, config);
+			}
+			catch(error)
+			{
+				console.log(error.message);
+			}
+		}
+
+		await this.props.handleOptionClicked(strOptionClikced, data);
 	}
 
 	render() {
@@ -175,7 +207,7 @@ class SideBar extends Component {
 		let arrCards = [];
 		let arrOptions = [
 			{
-				image: "fas fa-gamepad",
+				image: "fas fa-gamepad playground-icon",
 				text: "Playground",
 				id: "playground",
 				isExpandable: false
@@ -229,12 +261,16 @@ class MessageWrapper extends Component {
 				<div className="message-holder">
 					<div>
 						{
-							this.props.source === "quora" && <i className="fab fa-quora logo-quora"></i>
+							this.props.source === "training_dataset" && <i className="fab fa-quora logo-quora"></i>
 							|| this.props.source === "twitter" && <i className="fab fa-twitter logo-twitter"></i>
+							|| this.props.source === "speech_to_text" && <i className="fab fa-microphone logo-microphone"></i>
 						}
 					</div>
 					<div className="message-text">
 						<span>{this.props.text}</span>
+					</div>
+					<div className="message-score">
+						<span>{"Score: " + this.props.score}</span>
 					</div>
 				</div>
 			</div>
@@ -248,12 +284,18 @@ class MainContent extends Component
 	constructor()
 	{
 		super();
+		this.state = {"toxic_page": 1, "non_toxic_page": 1};
+		this.nMessagesPerPage = 5;
+	}
 
-		this.socket = io('http://localhost:3001');
-		// this.settingsSocket = io("http://localhost:5001")
-		this.state = {};
-		this.incomingNotToxicMessages = false;
-		this.incomingToxicMessages = false;
+	async onToxicPageChange(page)
+	{
+		await this.setState({"toxic_page": page});
+	}
+
+	async onNonToxicPageChange(page)
+	{
+		await this.setState({"non_toxic_page": page});
 	}
 
 	async componentDidMount()
@@ -276,7 +318,6 @@ class MainContent extends Component
 		{
 			console.log(error.message);
 		}
-
 	}
 
 	render()
@@ -371,58 +412,49 @@ class MainContent extends Component
 			}
 			else if(this.props.optionClicked === "messages-toxic")
 			{
-				let arrMessages = [];
-				// this.socket.emit("not_toxic_end");
-				if(this.incomingNotToxicMessages)
+				let arrMessages = this.props.data.data;
+				let nCurrentPage = this.state["toxic_page"];
+				let arrMessagesWrapper = [];
+				let nPagesRequired = arrMessages.length / this.nMessagesPerPage;
+				let arrMessagesSliced = arrMessages.slice(nCurrentPage - 1, nCurrentPage * this.nMessagesPerPage);
+
+				for(let i = 0; i < arrMessagesSliced.length; i++)
 				{
-					this.socket.emit("not_toxic_end");
+					if(arrMessagesSliced[i].message_text && arrMessagesSliced[i].length != 0)
+					{
+						arrMessagesWrapper.push(<MessageWrapper text={arrMessagesSliced[i].message_text} source={arrMessagesSliced[i].message_source} score={arrMessagesSliced[i].message_is_toxic}/>);
+					}
 				}
-
-				if(!this.incomingToxicMessages)
-				{
-					this.socket.emit("toxic", Math.round((new Date()).getTime() / 1000));
-					this.socket.on("toxic_data", async (data) => {
-
-						for(let i = 0; i < data.length; i++)
-						{
-							arrMessages.push(<MessageWrapper text={data[i].message_text} source="quora"/>);
-						}
-
-						this.incomingToxicMessages = true;
-						this.incomingNotToxicMessages = false;
-						await this.setState({"toxicMessages": arrMessages});
-					});
-				}
-
+				arrMessagesWrapper.push(
+					<div className="pagination">
+						<Pagination onChange={this.onToxicPageChange.bind(this)} current={this.state["toxic_page"]} defaultPageSize={5} total={arrMessages.length}/>
+					</div>
+				);
 				elNode = <div className="message-box">{this.state.toxicMessages}</div>
-
+				elNode = <div className="message-box">{arrMessagesWrapper}</div>
 			}
 			else if(this.props.optionClicked === "messages-not-toxic")
 			{
-				let arrMessages = [];
-				// this.socket.emit("toxic_end");
-				if(this.incomingToxicMessages)
+				let arrMessages = this.props.data.data;
+				let nCurrentPage = this.state["non_toxic_page"];
+				let arrMessagesWrapper = [];
+				let nPagesRequired = arrMessages.length / this.nMessagesPerPage;
+				let arrMessagesSliced = arrMessages.slice(nCurrentPage - 1, (nCurrentPage - 1) + this.nMessagesPerPage);
+
+				for(let i = 0; i < arrMessagesSliced.length; i++)
 				{
-					this.socket.emit("toxic_end");
+					if(arrMessagesSliced[i].message_text && arrMessagesSliced[i].length != 0)
+					{
+						arrMessagesWrapper.push(<MessageWrapper text={arrMessagesSliced[i].message_text} source={arrMessagesSliced[i].message_source} score={arrMessagesSliced[i].message_is_toxic}/>);
+					}
 				}
-
-				if(!this.incomingNotToxicMessages)
-				{
-					this.socket.emit("not_toxic", Math.round((new Date()).getTime() / 1000));
-					this.socket.on("not_toxic_data", async (data) => {
-						console.log(data);
-						for(let i = 0; i < data.length; i++)
-						{
-							arrMessages.push(<MessageWrapper text={data[i].message_text} source="quora"/>);
-						}
-						this.incomingNotToxicMessages = true;
-						this.incomingToxicMessages = false;
-						await this.setState({"notToxicMessages": arrMessages});
-					});
-				}
-
-				elNode = <div className="message-box">{this.state.notToxicMessages}</div>
-
+				arrMessagesWrapper.push(
+					<div className="pagination">
+						<Pagination onChange={this.onNonToxicPageChange.bind(this)} current={this.state["non_toxic_page"]} defaultPageSize={5} total={arrMessages.length}/>
+					</div>
+				);
+				elNode = <div className="message-box">{this.state.toxicMessages}</div>
+				elNode = <div className="message-box">{arrMessagesWrapper}</div>
 			}
 			else if(this.props.optionClicked === "data-sources")
 			{
@@ -439,18 +471,6 @@ class MainContent extends Component
 			}
 			else
 			{
-				if(this.incomingToxicMessages)
-				{
-					this.socket.emit("toxic_end");
-					this.incomingToxicMessages = false;
-				}
-
-				if(this.incomingNotToxicMessages)
-				{
-					this.socket.emit("not_toxic_end");
-					this.incomingNotToxicMessages = false;
-				}
-
 				elNode = <div className="data-main-content">
 							<Playground/>
 						</div>
@@ -479,8 +499,8 @@ class MainBody extends Component {
 		};
 	}
 
-	async handleOptionClicked(strOptionClikced) {
-		await this.setState({optionClicked: strOptionClikced});
+	async handleOptionClicked(strOptionClikced, data) {
+		await this.setState({optionClicked: strOptionClikced, data: data});
 	}
 
 	render() {
@@ -489,7 +509,7 @@ class MainBody extends Component {
 			<div className="main-body">
 				<SideBar handleOptionClicked={this.handleOptionClicked.bind(this)}/>
 				<SideBarShadow/>
-				<MainContent optionClicked={this.state.optionClicked}/>
+				<MainContent optionClicked={this.state.optionClicked} data={this.state.data}/>
 			</div>
 		)
 	}
@@ -535,7 +555,6 @@ class Checkbox extends Component {
 
 	async onCheckboxChange(e)
 	{
-		console.log(e);
 		// await this.setState({checked: !this.state.checked});
 		this.checked = !this.checked;
 		this.props.onChange(this.props.type, this.checked)
@@ -761,7 +780,6 @@ class DataSourceSettings extends React.Component {
 					{
 						objData["tag"] = this.inputValue;
 					}
-					console.log("sending " + objData);
 					arrSettings.push(objData);
 				}
 
@@ -780,7 +798,6 @@ class DataSourceSettings extends React.Component {
 	async handleCheckboxChange(type, value)
 	{
 		await this.setState({ [type]: value });
-		console.log(this.state);
 	}
 
 	async handleInputChange(event)
