@@ -270,7 +270,7 @@ class MessageWrapper extends Component {
 						<span>{this.props.text}</span>
 					</div>
 					<div className="message-score">
-						<span>{"Score: " + this.props.score}</span>
+						<span>{"Score: " + parseFloat(this.props.score).toFixed(4)}</span>
 					</div>
 				</div>
 			</div>
@@ -812,6 +812,8 @@ class DataSourceSettings extends React.Component {
 			color: "white",
 			marginLeft: "5rem"
 		};
+
+		console.log(this.state);
 
 		return (
 		  <div>
