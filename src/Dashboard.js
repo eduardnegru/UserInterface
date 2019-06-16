@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocketSingleton from './Socket';
 import './Dashboard.css';
 import Chart from 'chart.js';
 import axios from 'axios';
@@ -12,6 +13,8 @@ import ReactDOM from 'react-dom';
 import Pagination from 'rc-pagination';
 import 'rc-pagination/assets/index.css';
 const qs = require('qs');
+
+// const socket = require('./Socket');
 
 const ignoredKeys = ["Tab", "CapsLock", "Shift", "Control", "Alt", "AltGraph", "Escape", "F1"];
 
@@ -157,11 +160,16 @@ class TopBar extends Component {
 		super(props);
 	}
 
+	onHomeClicked()
+	{
+		window.location.reload();
+	}
+
 	render() {
 		let email = sessionStorage.getItem("email");
 		return(
 			<div className="top-bar">
-				<h1 className="company-name">{"Dashboard"}</h1>
+				<h1 className="company-name" onClick={this.onHomeClicked.bind(this)}>{"Dashboard"}</h1>
 				<span className="logged-in-user">{"Welcome, " + email + "."}</span>
 			</div>
 		);
@@ -301,7 +309,39 @@ class MainContent extends Component
 	constructor(props)
 	{
 		super(props);
-		this.state = {"toxic_page": 1, "non_toxic_page": 1, "arrSettings": null, "strInputValue": ""};
+		let dataSources = ["twitter", "speech_to_text", "training_dataset"];
+		let strInputValue = sessionStorage.getItem("inputValue");
+		let arrSettings;
+
+		if(strInputValue === null)
+		{
+			arrSettings = null;
+		}
+		else
+		{
+			arrSettings = [];
+
+			for(let i = 0; i < dataSources.length; i++)
+			{
+				let bCheckBoxChecked = sessionStorage.getItem(dataSources[i]);
+				if(bCheckBoxChecked === null)
+				{
+					arrSettings = null;
+					break;
+				}
+
+				let bValue = bCheckBoxChecked === "true" ? true : false;
+				let objSetting = {
+					"dataSourceName": dataSources[i],
+					"isRunning": bValue
+				}
+
+				arrSettings.push(objSetting);
+			}
+		}
+
+		this.state = {"toxic_page": 1, "non_toxic_page": 1, "arrSettings": arrSettings ? arrSettings : null, "strInputValue": strInputValue ? strInputValue : "Romania"};
+
 		this.nMessagesPerPage = 5;
 	}
 
@@ -319,8 +359,13 @@ class MainContent extends Component
 	{
 		await this.setState({"arrSettings": arrSettings});
 		await this.setState({"strInputValue": strInputValue});
-		sessionStorage.setItem("settings", arrSettings);
-		sessionStorage.setItem("strInputValue", strInputValue);
+		sessionStorage.setItem("inputValue", strInputValue);
+
+		for(let nIndex in arrSettings)
+		{
+			sessionStorage.setItem(arrSettings[nIndex]["dataSourceName"], arrSettings[nIndex]["isRunning"]);
+		}
+
 	}
 
 	async componentDidMount()
@@ -791,6 +836,7 @@ class DataSourceSettings extends React.Component {
 		this.state = {"isLoading": false};
 		this.objDataSourcesStatus = {};
 		this.inputValue = this.props.inputValue;
+
 		if(this.props.settings)
 		{
 			for(let i = 0; i < this.props.settings.length; i++)
@@ -819,26 +865,23 @@ class DataSourceSettings extends React.Component {
 
 		try
 		{
-			let socket = new WebSocket('ws://localhost:8888');
-			socket.addEventListener('open', async(event) => {
-				await sleep(1000);
-				let dataSources = ["twitter", "speech_to_text", "training_dataset"];
+			let socket =  SocketSingleton.get();
+			await sleep(1000);
+			let dataSources = ["twitter", "speech_to_text", "training_dataset"];
 
-				for(let dataSourceName of dataSources)
+			for(let dataSourceName of dataSources)
+			{
+				let objData = {"dataSourceName": dataSourceName, "isRunning": this.objDataSourcesStatus[dataSourceName]};
+				if(dataSourceName === "twitter" && this.objDataSourcesStatus[dataSourceName] === true)
 				{
-					let objData = {"dataSourceName": dataSourceName, "isRunning": this.objDataSourcesStatus[dataSourceName]};
-					if(dataSourceName === "twitter" && this.objDataSourcesStatus[dataSourceName] === true)
-					{
-						objData["tag"] = this.inputValue;
-					}
-					arrSettings.push(objData);
+					objData["tag"] = this.inputValue;
 				}
+				arrSettings.push(objData);
+			}
 
-				socket.send(JSON.stringify(arrSettings));
-				await this.props.onDataSourceChange(arrSettings, this.inputValue);
-				await this.setState({"isLoading": false});
-			});
-
+			socket.send(JSON.stringify(arrSettings));
+			await this.props.onDataSourceChange(arrSettings, this.inputValue);
+			await this.setState({"isLoading": false});
 		}
 		catch(error)
 		{
@@ -866,7 +909,7 @@ class DataSourceSettings extends React.Component {
 			color: "white",
 			marginLeft: "5rem"
 		};
-		console.log(this.inputValue);
+
 		return (
 
 		  <div>
