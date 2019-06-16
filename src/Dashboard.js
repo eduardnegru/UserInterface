@@ -17,6 +17,11 @@ const ignoredKeys = ["Tab", "CapsLock", "Shift", "Control", "Alt", "AltGraph", "
 
 class CustomWordCloud extends Component
 {
+	constructor(props)
+	{
+		super(props);
+	}
+
 	render() {
 		const data = this.props.data.map(function(x){
 			return {
@@ -26,7 +31,6 @@ class CustomWordCloud extends Component
 		});
 
 		  const fontSizeMapper = word => Math.log2(word.value) * this.props.font;
-
 
 		return(
 			<div>
@@ -42,9 +46,9 @@ class CustomWordCloud extends Component
 
 class SideBarOption extends Component
 {
-	constructor()
+	constructor(props)
 	{
-		super();
+		super(props);
 		this.state = {
 			isExpanded: false,
 			optionClicked: ""
@@ -148,6 +152,11 @@ class SideBarOption extends Component
 }
 
 class TopBar extends Component {
+	constructor(props)
+	{
+		super(props);
+	}
+
 	render() {
 		let email = sessionStorage.getItem("email");
 		return(
@@ -161,9 +170,9 @@ class TopBar extends Component {
 
 class SideBar extends Component {
 
-	constructor() {
+	constructor(props) {
 
-		super();
+		super(props);
 		this.state={
 			optionClicked:""
 		};
@@ -243,6 +252,10 @@ class SideBar extends Component {
 }
 
 class SideBarShadow extends Component {
+	constructor(props)
+	{
+		super(props);
+	}
 
 	render() {
 		return (
@@ -255,6 +268,11 @@ class SideBarShadow extends Component {
 
 class MessageWrapper extends Component {
 
+	constructor(props)
+	{
+		super(props);
+	}
+
 	render() {
 		return (
 			<div className="message-wrapper">
@@ -263,7 +281,7 @@ class MessageWrapper extends Component {
 						{
 							this.props.source === "training_dataset" && <i className="fab fa-quora logo-quora"></i>
 							|| this.props.source === "twitter" && <i className="fab fa-twitter logo-twitter"></i>
-							|| this.props.source === "speech_to_text" && <i className="fab fa-microphone logo-microphone"></i>
+							|| this.props.source === "speech_to_text" && <i className="fas fa-microphone logo-microphone"></i>
 						}
 					</div>
 					<div className="message-text">
@@ -280,11 +298,10 @@ class MessageWrapper extends Component {
 
 class MainContent extends Component
 {
-
-	constructor()
+	constructor(props)
 	{
-		super();
-		this.state = {"toxic_page": 1, "non_toxic_page": 1};
+		super(props);
+		this.state = {"toxic_page": 1, "non_toxic_page": 1, "arrSettings": null, "strInputValue": ""};
 		this.nMessagesPerPage = 5;
 	}
 
@@ -296,6 +313,14 @@ class MainContent extends Component
 	async onNonToxicPageChange(page)
 	{
 		await this.setState({"non_toxic_page": page});
+	}
+
+	async onDataSourceChange(arrSettings, strInputValue)
+	{
+		await this.setState({"arrSettings": arrSettings});
+		await this.setState({"strInputValue": strInputValue});
+		sessionStorage.setItem("settings", arrSettings);
+		sessionStorage.setItem("strInputValue", strInputValue);
 	}
 
 	async componentDidMount()
@@ -322,6 +347,7 @@ class MainContent extends Component
 
 	render()
 	{
+
 		if(Object.keys(this.state).length !== 0)
 		{
 			let elNode = {};
@@ -416,8 +442,9 @@ class MainContent extends Component
 				let nCurrentPage = this.state["toxic_page"];
 				let arrMessagesWrapper = [];
 				let nPagesRequired = arrMessages.length / this.nMessagesPerPage;
-				let arrMessagesSliced = arrMessages.slice(nCurrentPage - 1, nCurrentPage * this.nMessagesPerPage);
-
+				let arrMessagesSliced = arrMessages.slice((nCurrentPage - 1) * this.nMessagesPerPage, (nCurrentPage - 1) * this.nMessagesPerPage + this.nMessagesPerPage);
+				console.log(arrMessages);
+				console.log(arrMessagesSliced);
 				for(let i = 0; i < arrMessagesSliced.length; i++)
 				{
 					if(arrMessagesSliced[i].message_text && arrMessagesSliced[i].length != 0)
@@ -439,7 +466,7 @@ class MainContent extends Component
 				let nCurrentPage = this.state["non_toxic_page"];
 				let arrMessagesWrapper = [];
 				let nPagesRequired = arrMessages.length / this.nMessagesPerPage;
-				let arrMessagesSliced = arrMessages.slice(nCurrentPage - 1, (nCurrentPage - 1) + this.nMessagesPerPage);
+				let arrMessagesSliced = arrMessages.slice((nCurrentPage - 1) * this.nMessagesPerPage, (nCurrentPage - 1) * this.nMessagesPerPage + this.nMessagesPerPage);
 
 				for(let i = 0; i < arrMessagesSliced.length; i++)
 				{
@@ -460,7 +487,7 @@ class MainContent extends Component
 			{
 				elNode = <div className="data-main-content">
 							<p class="settings-top-margin">Configure data sources for the Kafka cluster.</p>
-							<DataSourceSettings/>
+							<DataSourceSettings onDataSourceChange={this.onDataSourceChange.bind(this)} settings={this.state.arrSettings} inputValue={this.state.strInputValue}/>
 						</div>
 			}
 			else if(this.props.optionClicked === "playground")
@@ -491,8 +518,8 @@ class MainContent extends Component
 }
 
 class MainBody extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 
 		this.state={
 			optionClicked: ""
@@ -516,6 +543,11 @@ class MainBody extends Component {
 }
 
 class BarChart extends React.Component {
+
+	constructor(props)
+	{
+		super(props);
+	}
 
 	componentDidMount()
 	{
@@ -545,19 +577,19 @@ class BarChart extends React.Component {
 	}
 }
 
-class Checkbox extends Component {
+class Checkbox extends React.Component {
 
-	constructor()
+	constructor(props)
 	{
-		super();
-		this.checked = false;
+		super(props);
+		this.checked = (this.props.isChecked === false || this.props.isChecked === undefined) ? false : true;
 	}
 
 	async onCheckboxChange(e)
 	{
-		// await this.setState({checked: !this.state.checked});
 		this.checked = !this.checked;
-		this.props.onChange(this.props.type, this.checked)
+		this.props.onChange(this.props.type, this.checked);
+		this.forceUpdate();
 	}
 
 	render() {
@@ -578,7 +610,7 @@ class Checkbox extends Component {
 		return (
 			<div class="settings-inline">
 				<div>
-					<input type="checkbox" id="gridCheck1" onChange={e => this.onCheckboxChange(e)}/>
+					<input type="checkbox" id="gridCheck1" onChange={e => this.onCheckboxChange(e)} checked={this.checked}/>
 					<i style={logo} className={this.props.logo}></i>
 					<label className="settings-label" for="gridCheck1">
 					{this.props.text}
@@ -591,9 +623,9 @@ class Checkbox extends Component {
 
 class Playground extends Component {
 
-	constructor()
+	constructor(props)
 	{
-		super();
+		super(props);
 		this.timer = null;
 		this.state = {"count": 0, "status": "stall", "message": "", "inputMessage":""};
 	}
@@ -753,18 +785,37 @@ class Label extends React.Component
 
 class DataSourceSettings extends React.Component {
 
-	constructor()
+	constructor(props)
 	{
-		super();
-		this.state ={"isLoading": false, "twitter": false, "training_dataset": false, "speech_to_text": false};
-		this.inputValue = "";
+		super(props);
+		this.state = {"isLoading": false};
+		this.objDataSourcesStatus = {};
+		this.inputValue = this.props.inputValue;
+		if(this.props.settings)
+		{
+			for(let i = 0; i < this.props.settings.length; i++)
+			{
+				this.objDataSourcesStatus[this.props.settings[i]["dataSourceName"]] = this.props.settings[i]["isRunning"];
+			}
+		}
+		else
+		{
+			let dataSources = ["twitter", "speech_to_text", "training_dataset"];
+			for(let i = 0; i < dataSources.length; i++)
+			{
+				this.objDataSourcesStatus[dataSources[i]] = true;
+			}
+		}
+
+		// console.log(this.objDataSourcesStatus);
+
 	}
 
 	async saveSetttingsListener()
 	{
 		let arrSettings = []
 
-		await this.setState({ "isLoading": !this.state.isLoading });
+		await this.setState({"isLoading": true});
 
 		try
 		{
@@ -775,8 +826,8 @@ class DataSourceSettings extends React.Component {
 
 				for(let dataSourceName of dataSources)
 				{
-					let objData = {"dataSourceName": dataSourceName, "isRunning":this.state[dataSourceName]};
-					if(dataSourceName === "twitter" && this.state[dataSourceName] === true)
+					let objData = {"dataSourceName": dataSourceName, "isRunning": this.objDataSourcesStatus[dataSourceName]};
+					if(dataSourceName === "twitter" && this.objDataSourcesStatus[dataSourceName] === true)
 					{
 						objData["tag"] = this.inputValue;
 					}
@@ -784,25 +835,28 @@ class DataSourceSettings extends React.Component {
 				}
 
 				socket.send(JSON.stringify(arrSettings));
-				await this.setState({ "isLoading": false});
+				await this.props.onDataSourceChange(arrSettings, this.inputValue);
+				await this.setState({"isLoading": false});
 			});
 
 		}
 		catch(error)
 		{
 			console.log(error);
-			await this.setState({ "isLoading": false});
+			await this.setState({"isLoading": false});
 		}
 	}
 
 	async handleCheckboxChange(type, value)
 	{
-		await this.setState({ [type]: value });
+		this.objDataSourcesStatus[type] = value;
+		// console.log(this.objDataSourcesStatus);
 	}
 
 	async handleInputChange(event)
 	{
 		this.inputValue = event.target.value;
+		this.forceUpdate();
 	}
 
 	render() {
@@ -812,26 +866,25 @@ class DataSourceSettings extends React.Component {
 			color: "white",
 			marginLeft: "5rem"
 		};
-
-		console.log(this.state);
-
+		console.log(this.inputValue);
 		return (
+
 		  <div>
-			<Checkbox text="Real-time Tweets" type="twitter" logo="fab fa-twitter left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
+			<Checkbox isChecked={this.objDataSourcesStatus["twitter"]} text="Real-time Tweets" type="twitter" logo="fab fa-twitter left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
 			<br/>
-			<Checkbox text="Quora" type="training_dataset" logo="fab fa-quora left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
+			<Checkbox isChecked={this.objDataSourcesStatus["training_dataset"]} text="Quora" type="training_dataset" logo="fab fa-quora left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
 			<br/>
-			<Checkbox text="Google speech to text" type="speech_to_text" logo="fas fa-microphone left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
+			<Checkbox isChecked={this.objDataSourcesStatus["speech_to_text"]} text="Google speech to text" type="speech_to_text" logo="fas fa-microphone left-margin" onChange={this.handleCheckboxChange.bind(this)}/>
 			<br/>
 			<br/>
-			<input type="text" className="form-control" placeholder="Enter Twiter tag filter" onBlur={this.handleInputChange.bind(this)}></input>
+			<input type="text" className="form-control" placeholder="Enter Twiter tag filter" value={this.inputValue} onChange={this.handleInputChange.bind(this)}></input>
 			<br/>
 			{/* <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/> */}
 			{/* <button style={buttonColor} class="btn create-account-button" type="button">Save settings</button> */}
 			<button onClick={this.saveSetttingsListener.bind(this)} style={buttonColor} class="btn create-account-button" type="button">Save settings</button>
 			<br/>
 			<br/>
-			<Spinner class="sweet-loading spinner-config" unit="px" size="50" isLoading={this.state.isLoading}/>
+			<Spinner class="sweet-loading spinner-config" unit="px" size="50" isLoading={this.state["isLoading"]}/>
 		  </div>
 	  );
 	}
@@ -860,6 +913,11 @@ class Spinner extends React.Component {
 }
 
 class PieChart extends React.Component {
+
+	constructor(props)
+	{
+		super(props);
+	}
 
 	componentDidMount()
 	{
@@ -903,6 +961,11 @@ class PieChart extends React.Component {
 }
 
 class Dashboard extends Component {
+
+	constructor(props)
+	{
+		super(props);
+	}
 
 	render() {
 		return (

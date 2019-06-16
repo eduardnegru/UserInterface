@@ -1,0 +1,2314 @@
+Attaching to userinterface_web_1
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Failed to compile.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m Syntax error: Unexpected token (582:53)
+[36mweb_1  |[0m 
+[36mweb_1  |[0m   580 | 	{
+[36mweb_1  |[0m   581 | 		super(props);
+[36mweb_1  |[0m > 582 | 		this.checked = (this.props.isChecked === false || ) ? false : true;
+[36mweb_1  |[0m       | 		                                                  ^
+[36mweb_1  |[0m   583 | 	}
+[36mweb_1  |[0m   584 | 
+[36mweb_1  |[0m   585 | 	async onCheckboxChange(e)
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 738:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 780:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 922:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 933:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 970:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 737:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 779:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 921:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 932:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 969:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 738:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 780:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 922:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 933:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 970:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 738:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 780:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 922:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 933:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 970:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 738:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 780:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 922:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 933:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 970:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 447:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 465:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 470:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 544:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 555:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 730:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 772:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 914:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 925:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 962:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 448:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 466:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 471:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 545:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 556:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 731:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 773:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 915:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 926:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 963:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 448:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 466:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 471:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 545:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 556:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 731:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 773:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 915:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 926:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 963:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 448:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 466:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 471:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 545:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 556:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 731:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 773:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 915:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 926:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 963:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 448:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 466:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 471:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 545:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 556:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 731:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 773:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 915:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 926:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 963:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 442:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 448:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 466:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 471:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 545:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 556:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 731:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 773:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 915:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 926:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 963:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Compiling...
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Starting the development server...
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+[36mweb_1  |[0m Compiled with warnings.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Login.js
+[36mweb_1  |[0m   Line 61:   'jwt' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 112:  'strErrorMessage' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/App.js
+[36mweb_1  |[0m   Line 7:  'Redirect' is defined but never used  no-unused-vars
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.js
+[36mweb_1  |[0m   Line 7:     'io' is defined but never used                       no-unused-vars
+[36mweb_1  |[0m   Line 11:    'ReactDOM' is defined but never used                 no-unused-vars
+[36mweb_1  |[0m   Line 14:    'qs' is assigned a value but never used              no-unused-vars
+[36mweb_1  |[0m   Line 20:    Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 136:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 137:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 138:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 155:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 255:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 271:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 282:  Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '&&' and '||'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 283:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:   Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 284:  Unexpected mix of '||' and '&&'                      no-mixed-operators
+[36mweb_1  |[0m   Line 444:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 450:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 468:   'nPagesRequired' is assigned a value but never used  no-unused-vars
+[36mweb_1  |[0m   Line 473:  Expected '!==' and instead saw '!='                  eqeqeq
+[36mweb_1  |[0m   Line 547:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 558:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 733:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 775:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 917:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m   Line 928:   'myChart' is assigned a value but never used         no-unused-vars
+[36mweb_1  |[0m   Line 965:   Useless constructor                                  no-useless-constructor
+[36mweb_1  |[0m 
+[36mweb_1  |[0m ./src/Dashboard.css (./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Dashboard.css)
+[36mweb_1  |[0m Warning
+[36mweb_1  |[0m 
+[36mweb_1  |[0m (16:5) Replace fill-available to stretch, because spec had been changed
+[36mweb_1  |[0m 
+[36mweb_1  |[0m Search for the keywords to learn more about each warning.
+[36mweb_1  |[0m To ignore, add // eslint-disable-next-line to the line before.
+[36mweb_1  |[0m 
+[36mweb_1  |[0m 
+[36mweb_1  |[0m > myprop@0.1.0 start /usr/src/app
+[36mweb_1  |[0m > react-scripts start
+[36mweb_1  |[0m 
