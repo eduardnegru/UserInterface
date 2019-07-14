@@ -10,8 +10,9 @@ import Cookies from 'js-cookie';
 const PrivateRoute = ({ component: Component, ...rest }) => {
 
   // Add your own authentication on the below line.
-  const jwtToken = Cookies.get('jwt');
-  console.log(jwtToken);
+  // const jwtToken = Cookies.get('jwt');
+
+  const jwtToken = sessionStorage.getItem('jwt');
   const isLoggedIn = jwtToken ? true : false;
 
   return (

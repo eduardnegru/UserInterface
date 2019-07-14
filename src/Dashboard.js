@@ -310,7 +310,7 @@ class MainContent extends Component
 	{
 		super(props);
 		let dataSources = ["twitter", "speech_to_text", "training_dataset"];
-		let strInputValue = sessionStorage.getItem("inputValue");
+		let strInputValue = localStorage.getItem("inputValue");
 		let arrSettings;
 
 		if(strInputValue === null)
@@ -323,7 +323,7 @@ class MainContent extends Component
 
 			for(let i = 0; i < dataSources.length; i++)
 			{
-				let bCheckBoxChecked = sessionStorage.getItem(dataSources[i]);
+				let bCheckBoxChecked = localStorage.getItem(dataSources[i]);
 				if(bCheckBoxChecked === null)
 				{
 					arrSettings = null;
@@ -359,11 +359,11 @@ class MainContent extends Component
 	{
 		await this.setState({"arrSettings": arrSettings});
 		await this.setState({"strInputValue": strInputValue});
-		sessionStorage.setItem("inputValue", strInputValue);
+		localStorage.setItem("inputValue", strInputValue);
 
 		for(let nIndex in arrSettings)
 		{
-			sessionStorage.setItem(arrSettings[nIndex]["dataSourceName"], arrSettings[nIndex]["isRunning"]);
+			localStorage.setItem(arrSettings[nIndex]["dataSourceName"], arrSettings[nIndex]["isRunning"]);
 		}
 
 	}

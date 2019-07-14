@@ -29,7 +29,9 @@ class Button extends React.Component {
 		try {
 			let result = await axios.post("http://localhost:3001/signup", qs.stringify(requestBody), config);
 			console.log(result);
+			let jwt = result.data.jwt;
 			sessionStorage.setItem("email", requestBody.email);
+			sessionStorage.setItem("jwt", jwt);
 			window.location="/dashboard";
 		} catch (error) {
 			console.log(error);
@@ -58,8 +60,9 @@ class Button extends React.Component {
 
 		try{
 			let result = await axios.post("http://localhost:3001/login", qs.stringify(requestBody), config);
-			let jwt = result.data.token;
+			let jwt = result.data.jwt;
 			sessionStorage.setItem("email", requestBody.email);
+			sessionStorage.setItem("jwt", jwt);
 			window.location="/dashboard";
 		}
 		catch(error)
